@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Comedy:</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Drama:</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Sci-Fi:</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Romantic:</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Adventure:</td>
+            <td>5</td>
+        </tr>
+    </table><br>
+    <form action="/movies" method="post">
+        <label for="nombreUser">Ingresa tu nombre</label>
+        <input type="text" name="nombreUser"><br><br>
+        <label for="first">Ingresa tu género favorito</label>
+        <input type="text" name="first"><br><br>
+        <label for="second">Ingresa tu segundo género favorito</label>
+        <input type="text" name="second"><br><br>
+        <label for="third">Ingresa tu tercer género favorito</label>
+        <input type="text" name="third"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
