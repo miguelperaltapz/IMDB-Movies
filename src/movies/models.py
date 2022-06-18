@@ -1,3 +1,8 @@
+'''Cuenta como un patrón de repositorio porque no todos los componentes del sistema tienen acceso
+directo a la base de datos, sino que es por medio del archivo de models.py.
+Es una abstracción sobre el almacenamietno persistente. Oculta los detalles del acceso a los datos
+al pretender que nuestros datos están en la memoria.'''
+
 import os
 from sqlalchemy import (
     MetaData,
